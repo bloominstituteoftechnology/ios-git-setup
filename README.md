@@ -42,9 +42,9 @@ Note: If you've been using git for a while now, you can reference what you've be
     
 Note: If you're not sure what your short username is, typing `echo ~` in **Terminal**, and use whatever is printed out there as the value for hooksPath, adding `/.githooks` to the end of that:
 
-    - `$  echo ~`
-    - `=> /Users/dimitribouniollambda`
-    - So you should use `/Users/dimitribouniollambda` + `/.githooks` => `/Users/dimitribouniollambda/.githooks`
+- `$  echo ~`
+- `=> /Users/dimitribouniollambda`
+- So you should use `/Users/dimitribouniollambda` + `/.githooks` => `/Users/dimitribouniollambda/.githooks`
     
 5. Save the file.
 
