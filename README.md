@@ -27,6 +27,14 @@ A Textmate window should open. You can close it without saving.
 ## 2. Prep your `gitconfig` file
 
 1. Open the provided `gitconfig` file with **Textmate** (or any other text editor).
+    
+**Note:** If you get an error indicating `“gitconfig” can’t be opened because it is from an unidentified developer.`, click ok, and do the following:
+
+- Open **System Preferences**.
+- Navigate to **Security & Privacy**
+- At the bottom, there will be a message that says `“gitconfig” was blocked from opening because it is not from an identified developer.`
+- Click **Open Anyway**
+
 2. Change `<Your Name Here>` on line 2 to be your name:
     - From: 	`name = <Your Name Here>`
     - To:	`name = Dimitri Bouniol`
@@ -50,7 +58,7 @@ A Textmate window should open. You can close it without saving.
 
 ## 3. Enable hidden files in Finder
 
-1. Navigate to the `ios-git-setup` folder in the **Finder**.
+1. Navigate to the `ios-git-setup-master` folder in the **Finder**.
 2. Press **Shift-Command-Period** to enable/disable hidden files in the **Finder**.
 
 ## 4. Rename your new git configuration files
@@ -80,7 +88,7 @@ These files will not not be shaded out. You can now delete them if you'd like.
 
 ## 6. Drag in the new git configuration files
 
-1. Find the window for the `ios-git-setup` folder in the **Finder**.
+1. Find the window for the `ios-git-setup-master` folder in the **Finder**.
 2. Drag the following files (and one folder) from this window to the window with your **Home** directory:
     - `.gitattributes`
     - `.gitconfig`
