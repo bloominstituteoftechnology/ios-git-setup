@@ -28,16 +28,18 @@ A Textmate window should open. You can close it without saving.
 
 1. Open the provided `gitconfig` file with **Textmate** (or any other text editor).
 2. Change `<Your Name Here>` on line 2 to be your name:
-	From: 	`name = <Your Name Here>`
-	To:	`name = Dimitri Bouniol`
+    - From: 	`name = <Your Name Here>`
+    - To:	`name = Dimitri Bouniol`
 3. Change `<youremailhere>` on line 3 to be your email (the one you use with GitHub):
-	From: 	`email = <youremailhere>`
-	To:	`email = dimitri.bouniol@lambda.com`
+    - From: 	`email = <youremailhere>`
+    - To:	`email = dimitri.bouniol@lambda.com`
+    
 Note: If you've been using git for a while now, you can reference what you've been using by typing `less ~/.gitconfig` in **Terminal**
 
 4. Change `<shortusername>` on line 10 to be your computer's short username:
-	From: 	`hooksPath = /Users/<shortusername>/.githooks`
-	To:	`hooksPath = /Users/dimitribouniollambda/.githooks`
+    - From: 	`hooksPath = /Users/<shortusername>/.githooks`
+    - To:	`hooksPath = /Users/dimitribouniollambda/.githooks`
+    
 Note: If you're not sure what your short username is, typing `echo ~` in **Terminal**, and use whatever is printed out there as the value for hooksPath, adding `/.githooks` to the end of that:
     - `$  echo ~`
     - `=> /Users/dimitribouniollambda`
