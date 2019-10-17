@@ -1,0 +1,18 @@
+[user]
+	name = <Your Name Here>
+	email = <youremailhere>
+[color]
+	ui = auto
+[core]
+	excludesfile = ~/.gitignore
+	autocrlf = input
+	attributesfile = ~/.gitattributes
+	hooksPath = /Users/<shortusername>/.githooks
+	editor = mate -w
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[pull]
+        rebase = true

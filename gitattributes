@@ -1,0 +1,4 @@
+*.ps binary
+*.ai binary
+
+*.m diff=objc
