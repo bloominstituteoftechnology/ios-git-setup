@@ -34,13 +34,13 @@ A Textmate window should open. You can close it without saving.
     - From: 	`email = <youremailhere>`
     - To:	`email = dimitri.bouniol@lambda.com`
     
-Note: If you've been using git for a while now, you can reference what you've been using by typing `less ~/.gitconfig` in **Terminal**
+**Note:** If you've been using git for a while now, you can reference what you've been using by typing `less ~/.gitconfig` in **Terminal**
 
 4. Change `<shortusername>` on line 10 to be your computer's short username:
     - From: 	`hooksPath = /Users/<shortusername>/.githooks`
     - To:	`hooksPath = /Users/dimitribouniollambda/.githooks`
     
-Note: If you're not sure what your short username is, typing `echo ~` in **Terminal**, and use whatever is printed out there as the value for hooksPath, adding `/.githooks` to the end of that:
+**Note:** If you're not sure what your short username is, typing `echo ~` in **Terminal**, and use whatever is printed out there as the value for hooksPath, adding `/.githooks` to the end of that:
 
 - `$  echo ~`
 - `=> /Users/dimitribouniollambda`
@@ -67,7 +67,7 @@ They should all be slightly greyed out now.
 1. In a new window, navigate to your home directory:
     - Go to the **Main Menu**, and choose **File** > **New Finder Window…** to open a new window.
     - Go to the **Main Menu**, and choose **Go** > **Home…** to go to your home directory.
-2. Locate any of the following files: (you will need to have hidden files visible - see 3. Enable hidden files in Finder)
+2. Locate any of the following files: (you will need to have hidden files visible — see [#3-enable-hidden-files-in-finder](3. Enable hidden files in Finder))
     - `.gitattributes`
     - `.gitconfig`
     - `.githooks`
@@ -76,7 +76,7 @@ They should all be slightly greyed out now.
 
 These files will not not be shaded out. You can now delete them if you'd like.
 
-If you also have a `.git` folder in your home directory, this was probably a mistake, and should probably be deleted. Reach out to your instructor for assistance.
+**Note:** If you also have a `.git` folder in your home directory, this was probably a mistake, and should probably be deleted. Reach out to your instructor for assistance.
 
 ## 6. Drag in the new git configuration files
 
