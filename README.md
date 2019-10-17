@@ -67,7 +67,7 @@ They should all be slightly greyed out now.
 1. In a new window, navigate to your home directory:
     - Go to the **Main Menu**, and choose **File** > **New Finder Window…** to open a new window.
     - Go to the **Main Menu**, and choose **Go** > **Home…** to go to your home directory.
-2. Locate any of the following files: (you will need to have hidden files visible — see [#3-enable-hidden-files-in-finder](3. Enable hidden files in Finder))
+2. Locate any of the following files: (you will need to have hidden files visible — see [https://github.com/LambdaSchool/ios-git-setup#3-enable-hidden-files-in-finder](3. Enable hidden files in Finder))
     - `.gitattributes`
     - `.gitconfig`
     - `.githooks`
