@@ -1,3 +1,7 @@
+# Git Documentation and Guides
+
+Documentation on how to use Git as an iOS developer can be found in this repository's [wiki](https://github.com/LambdaSchool/ios-git-setup/wiki).
+
 # Installation Instructions
 
 ## 0. Download this repo from GitHub
