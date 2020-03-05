@@ -20,19 +20,19 @@
 *.tar
 *.zip
 
-*.pages/
-
 # Logs and databases #
 ######################
 *.log
 *.sql
 *.sqlite
 
-# Sparkle distribution Private Key (Don't check me in!)
+# Sparkle #
+###########
+# Distribution Private Key (Don't check me in!)
 dsa_priv.pem
 
-
-# XCode (and ancestors) per-user config (very noisy, and not relevant)
+# Xcode #
+#########
 *.mode1
 *.mode1v3
 *.mode2v3
@@ -40,23 +40,26 @@ dsa_priv.pem
 *.perspectivev3
 *.pbxuser
 xcuserdata/
-*.xcworkspace/
+#*.xcworkspace/
 
-# Generated files
+# Generated files #
+###################
 VersionX-revision.h
 
-
-# build products
+# Build Products #
+##################
 build/
 *.[oa]
 
-# Other source repository archive directories (protects when importing)
+# Other Source Control #
+########################
+# Source repository archive directories (protects when importing)
 .hg
 .svn
 CVS
 
-
-# automatic backup files
+# Automatic Backup Files #
+##########################
 *~.nib
 *.swp
 *~
@@ -73,6 +76,8 @@ ehthumbs.db
 Icon?
 Thumbs.db
 
+# Manual Ignore Files #
+#######################
 *.alias
 *.gitignore
 
