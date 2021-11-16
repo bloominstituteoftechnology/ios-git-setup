@@ -1,12 +1,12 @@
 # Git Documentation and Guides
 
-Documentation on how to use Git as an iOS developer can be found in this repository's [wiki](https://github.com/LambdaSchool/ios-git-setup/wiki).
+Documentation on how to use Git as an iOS developer can be found in this repository's [wiki](https://github.com/BloomInstituteOfTechnology/ios-git-setup/wiki).
 
 # Installation Instructions
 
 ## 0. Download this repo from GitHub
 
-1. Go to https://github.com/LambdaSchool/ios-git-setup.
+1. Go to https://github.com/BloomInstituteOfTechnology/ios-git-setup.
 2. Click **Clone or Download**.
 3. Choose **Download ZIP**.
 4. Open the resulting folder (`ios-git-setup-master`), and leave it to the side.
